@@ -4,13 +4,13 @@
     <Assembly Value="OpenSpan.Adapters.Windows" />
     <AssemblyReferences>
       <Assembly Value="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+      <Assembly Value="System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
       <Assembly Value="OpenSpan, Version=8.0.0.0, Culture=neutral, PublicKeyToken=f5db91edc02d8c5e" />
       <Assembly Value="OpenSpan.Adapters, Version=8.0.0.0, Culture=neutral, PublicKeyToken=f5db91edc02d8c5e" />
       <Assembly Value="OpenSpan.Adapters.ActiveX, Version=8.0.0.0, Culture=neutral, PublicKeyToken=f5db91edc02d8c5e" />
       <Assembly Value="OpenSpan.Adapters.DotNet, Version=8.0.0.0, Culture=neutral, PublicKeyToken=f5db91edc02d8c5e" />
       <Assembly Value="OpenSpan.Adapters.Virtual, Version=8.0.0.0, Culture=neutral, PublicKeyToken=f5db91edc02d8c5e" />
       <Assembly Value="OpenSpan.Adapters.Windows, Version=8.0.0.0, Culture=neutral, PublicKeyToken=f5db91edc02d8c5e" />
-      <Assembly Value="System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
     </AssemblyReferences>
     <DynamicAssemblyReferences />
     <FileReferences />
@@ -252,6 +252,7 @@
                         <ForwardObjectExplorerEvent Value="True" />
                         <MatchingIndex Value="0" />
                         <TargetTypeString Value="OpenSpan.Adapters.Virtual.VirtualTargets.VirtualMdiChild, OpenSpan.Adapters.Virtual" />
+                        <UseKeys Value="True" />
                         <Content Name="Controls">
                           <Items>
                             <OpenSpan.Adapters.Controls.Control Name="CRMpnlCustInfo" Id="Control-8D69D8A8D1BE9F5">
