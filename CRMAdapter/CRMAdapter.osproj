@@ -97,6 +97,10 @@
       <Private>False</Private>
       <HintPath>$(OPENSPAN_APPLICATION_PATH)\OpenSpan.ApplicationFramework.dll</HintPath>
     </Reference>
+    <Reference Include="OpenSpan.Automation">
+      <Private>False</Private>
+      <HintPath>$(OPENSPAN_APPLICATION_PATH)\OpenSpan.Automation.dll</HintPath>
+    </Reference>
     <Reference Include="OpenSpan.Automation, Version=8.0.0.0, Culture=neutral, PublicKeyToken=f5db91edc02d8c5e">
       <HintPath>$(OPENSPAN_APPLICATION_PATH)\OpenSpan.Automation.dll</HintPath>
       <Private>False</Private>
@@ -170,6 +174,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="Events" />
+    <Folder Include="Controls" />
     <Folder Include="Properties\" />
   </ItemGroup>
   <ItemGroup>
@@ -179,6 +185,10 @@
     <Compile Include="CRM.os">
       <SubType>Component</SubType>
       <Id>WindowsAdapter-8D69D76909BC4F8</Id>
+    </Compile>
+    <Compile Include="Events\CRM_E_CRMfrmLogin_Created.os">
+      <SubType>Component</SubType>
+      <Id>Automator-8D6A63346B250DB</Id>
     </Compile>
   </ItemGroup>
   <ItemGroup>
