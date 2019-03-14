@@ -4,6 +4,7 @@
     <Assembly Value="OpenSpan.Adapters.Web" />
     <AssemblyReferences>
       <Assembly Value="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+      <Assembly Value="System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
       <Assembly Value="OpenSpan, Version=8.0.0.0, Culture=neutral, PublicKeyToken=f5db91edc02d8c5e" />
       <Assembly Value="OpenSpan.Adapters, Version=8.0.0.0, Culture=neutral, PublicKeyToken=f5db91edc02d8c5e" />
       <Assembly Value="OpenSpan.Adapters.ActiveX, Version=8.0.0.0, Culture=neutral, PublicKeyToken=f5db91edc02d8c5e" />
@@ -11,7 +12,6 @@
       <Assembly Value="OpenSpan.Adapters.Windows, Version=8.0.0.0, Culture=neutral, PublicKeyToken=f5db91edc02d8c5e" />
       <Assembly Value="OpenSpan.Adapters.WinInet, Version=8.0.0.0, Culture=neutral, PublicKeyToken=f5db91edc02d8c5e" />
       <Assembly Value="OpenSpan.ApplicationFramework, Version=8.0.0.0, Culture=neutral, PublicKeyToken=f5db91edc02d8c5e" />
-      <Assembly Value="System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
     </AssemblyReferences>
     <DynamicAssemblyReferences />
     <FileReferences>
@@ -131,9 +131,10 @@
                             <OpenSpan.Adapters.Web.MatchRules.InputTypeMatchRule Name="inputTypeMatchRule1" Id="InputTypeMatchRule-8D6A7D6B1DA5AF3">
                               <Type Value="Text" />
                             </OpenSpan.Adapters.Web.MatchRules.InputTypeMatchRule>
-                            <OpenSpan.Adapters.Web.MatchRules.ElementIdMatchRule Name="elementIdMatchRule1" Id="ElementIdMatchRule-8D6A7D6B1E3E4F3">
+                            <OpenSpan.Adapters.Web.MatchRules.AttributeMatchRule Name="attributeMatchRule1" Id="AttributeMatchRule-8D6A879C2820269">
+                              <Attribute Value="name" />
                               <Text Value="Simple|True|(User Culture)|user_name" />
-                            </OpenSpan.Adapters.Web.MatchRules.ElementIdMatchRule>
+                            </OpenSpan.Adapters.Web.MatchRules.AttributeMatchRule>
                           </Items>
                         </Content>
                       </OpenSpan.Adapters.Web.Controls.TextBox>
@@ -249,6 +250,21 @@
                     </Items>
                   </Content>
                 </OpenSpan.Adapters.Web.Controls.Link>
+                <OpenSpan.Adapters.Web.Controls.WebControl Name="ACMENewsAlert" Id="WebControl-8D6A87ADDAD0983">
+                  <DummyPropertyToDetectReplaceUndo Value="0" />
+                  <ForwardObjectExplorerEvent Value="True" />
+                  <MatchingIndex Value="2" />
+                  <TagName Value="P" />
+                  <TargetTypeString Value="OpenSpan.Adapters.Web.HtmlElement, OpenSpan.Adapters.Web" />
+                  <UseElementId Value="False" />
+                  <Content Name="MatchRules">
+                    <Items>
+                      <OpenSpan.Adapters.Web.MatchRules.ElementIndexMatchRule Name="elementIndexMatchRule1" Id="ElementIndexMatchRule-8D6A87B25995742">
+                        <Index Value="2" />
+                      </OpenSpan.Adapters.Web.MatchRules.ElementIndexMatchRule>
+                    </Items>
+                  </Content>
+                </OpenSpan.Adapters.Web.Controls.WebControl>
               </Items>
             </Content>
             <Content Name="MatchRules">
