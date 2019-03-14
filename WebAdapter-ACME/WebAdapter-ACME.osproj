@@ -69,6 +69,14 @@
   </PropertyGroup>
   <Import Project="$(OpenSpanPath)\OpenSpan.targets" />
   <ItemGroup>
+    <Reference Include="Interop.FREngine, Version=12.2.27.1, Culture=neutral, PublicKeyToken=2e1e7aca5d298f96">
+      <HintPath>$(OPENSPAN_APPLICATION_PATH)\Interop.FREngine.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="log4net, Version=1.2.10.0, Culture=neutral, PublicKeyToken=1b44e1d426115821">
+      <HintPath>$(OPENSPAN_APPLICATION_PATH)\log4net.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="OpenSpan.Adapters">
       <Private>False</Private>
       <HintPath>$(OPENSPAN_APPLICATION_PATH)\OpenSpan.Adapters.dll</HintPath>
@@ -174,16 +182,21 @@
       <SubType>Component</SubType>
       <Id>WebAdapter-8D6A7D3273C5678</Id>
     </Compile>
-    <Compile Include="Automation1.os">
-      <SubType>Component</SubType>
-      <Id>Automator-8D6A7D2CEADA230</Id>
-    </Compile>
     <Compile Include="frmTest.os">
       <SubType>Component</SubType>
       <Id>DesignForm-8D6A88E37EFB323</Id>
     </Compile>
+    <Compile Include="Procedures\ACME_P_NavToHome.os">
+      <SubType>Component</SubType>
+      <Id>Automator-8D6A8A1652C763D</Id>
+    </Compile>
+    <Compile Include="Procedures\ACME_P_SignIn.os">
+      <SubType>Component</SubType>
+      <Id>Automator-8D6A8A178F6A18C</Id>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="Procedures" />
     <Folder Include="Properties\" />
   </ItemGroup>
   <ItemGroup>

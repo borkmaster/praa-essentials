@@ -180,6 +180,7 @@
   <ItemGroup>
     <Folder Include="Events" />
     <Folder Include="Controls" />
+    <Folder Include="Procedures" />
     <Folder Include="Properties\" />
   </ItemGroup>
   <ItemGroup>
