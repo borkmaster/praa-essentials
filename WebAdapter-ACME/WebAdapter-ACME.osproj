@@ -178,6 +178,10 @@
       <SubType>Component</SubType>
       <Id>Automator-8D6A7D2CEADA230</Id>
     </Compile>
+    <Compile Include="frmTest.os">
+      <SubType>Component</SubType>
+      <Id>DesignForm-8D6A88E37EFB323</Id>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Properties\" />
