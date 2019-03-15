@@ -186,13 +186,25 @@
       <SubType>Component</SubType>
       <Id>WebAdapter-8D6A7D3273C5678</Id>
     </Compile>
+    <Compile Include="Events\ACME_E_btnTestClicked.os">
+      <SubType>Component</SubType>
+      <Id>Automator-8D6A8CC74993085</Id>
+    </Compile>
     <Compile Include="frmTest.os">
       <SubType>Component</SubType>
       <Id>DesignForm-8D6A88E37EFB323</Id>
     </Compile>
+    <Compile Include="Procedures\ACME_P_GetNearestStore.os">
+      <SubType>Component</SubType>
+      <Id>Automator-8D6A8CC572204BC</Id>
+    </Compile>
     <Compile Include="Procedures\ACME_P_NavToHome.os">
       <SubType>Component</SubType>
       <Id>Automator-8D6A8A1652C763D</Id>
+    </Compile>
+    <Compile Include="Procedures\ACME_P_SearchByZip.os">
+      <SubType>Component</SubType>
+      <Id>Automator-8D6A8CC4646199A</Id>
     </Compile>
     <Compile Include="Procedures\ACME_P_SignIn.os">
       <SubType>Component</SubType>
@@ -200,6 +212,7 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="Events" />
     <Folder Include="Procedures" />
     <Folder Include="Properties\" />
   </ItemGroup>
