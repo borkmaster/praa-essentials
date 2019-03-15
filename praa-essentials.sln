@@ -7,6 +7,8 @@ Project("{B45C44CD-E95B-43EF-AF7C-4D25776FBF5E}") = "CRMAdapter", "CRMAdapter\CR
 EndProject
 Project("{B45C44CD-E95B-43EF-AF7C-4D25776FBF5E}") = "WebAdapter-ACME", "WebAdapter-ACME\WebAdapter-ACME.osproj", "{B09CF051-AC08-400B-86E7-8B9F3FB5A4B5}"
 EndProject
+Project("{B45C44CD-E95B-43EF-AF7C-4D25776FBF5E}") = "Main-UI", "Main-UI\Main-UI.osproj", "{7327CE60-3405-473D-961D-6C77A677003A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{B09CF051-AC08-400B-86E7-8B9F3FB5A4B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B09CF051-AC08-400B-86E7-8B9F3FB5A4B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B09CF051-AC08-400B-86E7-8B9F3FB5A4B5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7327CE60-3405-473D-961D-6C77A677003A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7327CE60-3405-473D-961D-6C77A677003A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7327CE60-3405-473D-961D-6C77A677003A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7327CE60-3405-473D-961D-6C77A677003A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
