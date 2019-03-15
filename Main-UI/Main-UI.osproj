@@ -69,6 +69,14 @@
   </PropertyGroup>
   <Import Project="$(OpenSpanPath)\OpenSpan.targets" />
   <ItemGroup>
+    <Reference Include="Interop.FREngine, Version=12.2.27.1, Culture=neutral, PublicKeyToken=2e1e7aca5d298f96">
+      <HintPath>$(OPENSPAN_APPLICATION_PATH)\Interop.FREngine.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="log4net, Version=1.2.10.0, Culture=neutral, PublicKeyToken=1b44e1d426115821">
+      <HintPath>$(OPENSPAN_APPLICATION_PATH)\log4net.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="OpenSpan.Automation">
       <Private>False</Private>
       <HintPath>$(OPENSPAN_APPLICATION_PATH)\OpenSpan.Automation.dll</HintPath>
@@ -87,6 +95,22 @@
     </Reference>
     <Reference Include="Pega.Interop, Version=10.0.0.0, Culture=neutral, PublicKeyToken=f5db91edc02d8c5e">
       <HintPath>$(OPENSPAN_APPLICATION_PATH)\Pega.Interop.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Pega.Scout.Interop, Version=10.0.0.0, Culture=neutral, PublicKeyToken=f5db91edc02d8c5e">
+      <HintPath>$(OPENSPAN_APPLICATION_PATH)\Pega.Scout.Interop.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Pega.Scout.Remoting.Interop, Version=10.0.0.0, Culture=neutral, PublicKeyToken=f5db91edc02d8c5e">
+      <HintPath>$(OPENSPAN_APPLICATION_PATH)\Pega.Scout.Remoting.Interop.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Pega.Service.Remoting, Version=10.0.0.0, Culture=neutral, PublicKeyToken=f5db91edc02d8c5e">
+      <HintPath>$(OPENSPAN_APPLICATION_PATH)\Pega.Service.Remoting.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Pega.SharedMemory.Interop, Version=10.0.0.0, Culture=neutral, PublicKeyToken=f5db91edc02d8c5e">
+      <HintPath>$(OPENSPAN_APPLICATION_PATH)\Pega.SharedMemory.Interop.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="System">
@@ -116,6 +140,7 @@
   <ItemGroup>
     <Folder Include="Events" />
     <Folder Include="Events\Interactions" />
+    <Folder Include="Procedures" />
     <Folder Include="Properties\" />
   </ItemGroup>
   <ItemGroup>
@@ -133,6 +158,10 @@
     <Compile Include="Events\Interactions\Main_E_IntMgr_InteractionStarted.os">
       <SubType>Component</SubType>
       <Id>Automator-8D6A95A27BFDE34</Id>
+    </Compile>
+    <Compile Include="Procedures\Main_P_LoadCustInfoValues.os">
+      <SubType>Component</SubType>
+      <Id>Automator-8D6A9600F504324</Id>
     </Compile>
     <Compile Include="_Main-UI_GC.os">
       <SubType>Component</SubType>

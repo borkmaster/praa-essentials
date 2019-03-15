@@ -36,7 +36,10 @@
 		<Value Name="TextPlan" Type="String" Default="My Text Plan Description That Does Not Wrap To Next Line"/>
 		<Value Name="Address1" Type="String" Default="1000 Main St"/>
 		<Value Name="Address2" Type="String" Default="Suite 101"/>
-		<Value Name="City" Type="String" Default="Atlanta"/>
+    <Value Name="AcctNum" Type="String" Default=""/>
+		<Value Name="City" Type="String" Default=""/>
+    <Value Name="Address" Type="String" Default=""/>
+    <Value Name="Name" Type="String" Default=""/>
 		<Value Name="State" Type="String" Default="XX"/>
 		<Value Name="ZipCode" Type="String" Default="XXXX"/>
     <Value Name="NearestStore" Type="String" Default="XXXX"/>
