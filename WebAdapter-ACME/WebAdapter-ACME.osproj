@@ -15,7 +15,7 @@
     <!-- Custom properties -->
     <Name>WebAdapter-ACME</Name>
     <Id>Project-8D6A7D2CEC33D8D</Id>
-    <Version>8.0.2006.0</Version>
+    <Version>8.0.2018.0</Version>
     <TransformationVersion>8.0.2000.3</TransformationVersion>
     <ConfigurationFile>
     </ConfigurationFile>
@@ -25,7 +25,7 @@
     <!-- Deployment -->
     <DeploymentFiles>
     </DeploymentFiles>
-    <InteractionConfigurationFile />
+    <InteractionConfigurationFile>|Documents|\Visual Studio 2015\Projects\praa-essentials\Main-UI\Interaction.xml</InteractionConfigurationFile>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <OutputPath>bin\Debug\</OutputPath>
@@ -77,6 +77,10 @@
       <HintPath>$(OPENSPAN_APPLICATION_PATH)\log4net.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="OpenSpan">
+      <Private>False</Private>
+      <HintPath>$(OPENSPAN_APPLICATION_PATH)\OpenSpan.dll</HintPath>
+    </Reference>
     <Reference Include="OpenSpan.Adapters, Version=8.0.0.0, Culture=neutral, PublicKeyToken=f5db91edc02d8c5e">
       <Private>False</Private>
       <HintPath>$(OPENSPAN_APPLICATION_PATH)\OpenSpan.Adapters.dll</HintPath>
@@ -105,8 +109,20 @@
       <Private>False</Private>
       <HintPath>$(OPENSPAN_APPLICATION_PATH)\OpenSpan.ApplicationFramework.dll</HintPath>
     </Reference>
+    <Reference Include="OpenSpan.Automation">
+      <Private>False</Private>
+      <HintPath>$(OPENSPAN_APPLICATION_PATH)\OpenSpan.Automation.dll</HintPath>
+    </Reference>
     <Reference Include="OpenSpan.Controls, Version=8.0.0.0, Culture=neutral, PublicKeyToken=f5db91edc02d8c5e">
       <HintPath>$(OPENSPAN_APPLICATION_PATH)\OpenSpan.Controls.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="OpenSpan.Interactions, Version=8.0.0.0, Culture=neutral, PublicKeyToken=f5db91edc02d8c5e">
+      <HintPath>$(OPENSPAN_APPLICATION_PATH)\OpenSpan.Interactions.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="OpenSpan.Interactions.Controls, Version=8.0.0.0, Culture=neutral, PublicKeyToken=f5db91edc02d8c5e">
+      <HintPath>$(OPENSPAN_APPLICATION_PATH)\OpenSpan.Interactions.Controls.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="OpenSpan.Recording, Version=8.0.0.0, Culture=neutral, PublicKeyToken=f5db91edc02d8c5e">
@@ -209,6 +225,10 @@
     <Compile Include="Procedures\ACME_P_SignIn.os">
       <SubType>Component</SubType>
       <Id>Automator-8D6A8A178F6A18C</Id>
+    </Compile>
+    <Compile Include="_ACME_GC.os">
+      <SubType>Component</SubType>
+      <Id>GlobalContainer-8D6A9467A4F5EB7</Id>
     </Compile>
   </ItemGroup>
   <ItemGroup>

@@ -37,8 +37,9 @@
 		<Value Name="Address1" Type="String" Default="1000 Main St"/>
 		<Value Name="Address2" Type="String" Default="Suite 101"/>
 		<Value Name="City" Type="String" Default="Atlanta"/>
-		<Value Name="State" Type="String" Default="GA"/>
-		<Value Name="Zipcode" Type="String" Default="00000"/>
+		<Value Name="State" Type="String" Default="XX"/>
+		<Value Name="ZipCode" Type="String" Default="XXXX"/>
+    <Value Name="NearestStore" Type="String" Default="XXXX"/>
 		<Value Name="Phone1" Type="String" Default=""/>
 		<Value Name="Phone2" Type="String" Default=""/>
 		<Value Name="Phone3" Type="String" Default=""/>

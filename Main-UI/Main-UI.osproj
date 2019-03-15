@@ -25,7 +25,7 @@
     <!-- Deployment -->
     <DeploymentFiles>
     </DeploymentFiles>
-    <InteractionConfigurationFile>..\Interaction.xml</InteractionConfigurationFile>
+    <InteractionConfigurationFile>Interaction.xml</InteractionConfigurationFile>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <OutputPath>bin\Debug\</OutputPath>
@@ -120,9 +120,21 @@
       <SubType>Component</SubType>
       <Id>DesignForm-8D6A9416361EBFF</Id>
     </Compile>
-    <Compile Include="Main-UI_GC.os">
+    <Compile Include="_Main-UI_GC.os">
       <SubType>Component</SubType>
       <Id>GlobalContainer-8D6A9414EEA5617</Id>
     </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CRMAdapter\CRMAdapter.osproj">
+      <Name>CRMAdapter</Name>
+      <Project>{874f8a94-358d-49f1-8216-cd2778cce84f}</Project>
+      <Private>True</Private>
+    </ProjectReference>
+    <ProjectReference Include="..\WebAdapter-ACME\WebAdapter-ACME.osproj">
+      <Name>WebAdapter-ACME</Name>
+      <Project>{b09cf051-ac08-400b-86e7-8b9f3fb5a4b5}</Project>
+      <Private>True</Private>
+    </ProjectReference>
   </ItemGroup>
 </Project>

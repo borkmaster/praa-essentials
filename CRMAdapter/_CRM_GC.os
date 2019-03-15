@@ -14,8 +14,8 @@
     <BuildReferences />
   </ComponentInfo>
   <Component Version="1.0">
-    <OpenSpan.Automation.GlobalContainer Name="Main-UI_GC" Id="GlobalContainer-8D6A9414EEA5617" />
-    <OpenSpan.Interactions.Controls.InteractionManager Name="interactionManager" Id="InteractionManager-8D6A94553A95D75">
+    <OpenSpan.Automation.GlobalContainer Name="_CRM_GC" Id="GlobalContainer-8D6A9464D648991" />
+    <OpenSpan.Interactions.Controls.InteractionManager Name="IntMgr" Id="InteractionManager-8D6A946EDC228F9">
       <TableSchema Value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-16&quot;?&gt;&#xD;&#xA;&lt;xs:schema id=&quot;NewDataSet&quot; xmlns=&quot;&quot; xmlns:xs=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:msdata=&quot;urn:schemas-microsoft-com:xml-msdata&quot;&gt;&#xD;&#xA;  &lt;xs:element name=&quot;NewDataSet&quot; msdata:IsDataSet=&quot;true&quot; msdata:UseCurrentLocale=&quot;true&quot;&gt;&#xD;&#xA;    &lt;xs:complexType&gt;&#xD;&#xA;      &lt;xs:choice minOccurs=&quot;0&quot; maxOccurs=&quot;unbounded&quot;&gt;&#xD;&#xA;        &lt;xs:element name=&quot;Activities&quot;&gt;&#xD;&#xA;          &lt;xs:complexType&gt;&#xD;&#xA;            &lt;xs:sequence&gt;&#xD;&#xA;              &lt;xs:element name=&quot;ActivityName&quot; type=&quot;xs:string&quot; minOccurs=&quot;0&quot; /&gt;&#xD;&#xA;              &lt;xs:element name=&quot;Interaction&quot; type=&quot;xs:string&quot; minOccurs=&quot;0&quot; /&gt;&#xD;&#xA;              &lt;xs:element name=&quot;WorkItemId&quot; type=&quot;xs:string&quot; minOccurs=&quot;0&quot; /&gt;&#xD;&#xA;            &lt;/xs:sequence&gt;&#xD;&#xA;          &lt;/xs:complexType&gt;&#xD;&#xA;        &lt;/xs:element&gt;&#xD;&#xA;      &lt;/xs:choice&gt;&#xD;&#xA;    &lt;/xs:complexType&gt;&#xD;&#xA;  &lt;/xs:element&gt;&#xD;&#xA;&lt;/xs:schema&gt;" />
       <UseKeys Value="True" />
       <Content Name="DynamicMembers">
@@ -33,7 +33,6 @@
           <OpenSpan.DynamicMembers.DynamicPropertyInfo dynamicType="Property" name="Address2" canRead="True" canWrite="True" type="System.String" aliasName="Address2" shouldSerialize="False" visibility="DefaultOn" source="" blockTypeName="" />
           <OpenSpan.DynamicMembers.DynamicPropertyInfo dynamicType="Property" name="City" canRead="True" canWrite="True" type="System.String" aliasName="City" shouldSerialize="False" visibility="DefaultOn" source="" blockTypeName="" />
           <OpenSpan.DynamicMembers.DynamicPropertyInfo dynamicType="Property" name="State" canRead="True" canWrite="True" type="System.String" aliasName="State" shouldSerialize="False" visibility="DefaultOn" source="" blockTypeName="" />
-          <OpenSpan.DynamicMembers.DynamicPropertyInfo dynamicType="Property" name="Zipcode" canRead="True" canWrite="True" type="System.String" aliasName="Zipcode" shouldSerialize="False" visibility="DefaultOn" source="" blockTypeName="" />
           <OpenSpan.DynamicMembers.DynamicPropertyInfo dynamicType="Property" name="Phone1" canRead="True" canWrite="True" type="System.String" aliasName="Phone1" shouldSerialize="False" visibility="DefaultOn" source="" blockTypeName="" />
           <OpenSpan.DynamicMembers.DynamicPropertyInfo dynamicType="Property" name="Phone2" canRead="True" canWrite="True" type="System.String" aliasName="Phone2" shouldSerialize="False" visibility="DefaultOn" source="" blockTypeName="" />
           <OpenSpan.DynamicMembers.DynamicPropertyInfo dynamicType="Property" name="Phone3" canRead="True" canWrite="True" type="System.String" aliasName="Phone3" shouldSerialize="False" visibility="DefaultOn" source="" blockTypeName="" />
@@ -61,7 +60,6 @@
           <OpenSpan.DynamicMembers.DynamicEventInfo dynamicType="Event" name="OnAddress2Changed" aliasName="" visibility="DefaultOn" source="" blockTypeName="" eventHandlerType="OpenSpan.Interactions.Controls.InteractionManager+PropertyChangedEventHandler" />
           <OpenSpan.DynamicMembers.DynamicEventInfo dynamicType="Event" name="OnCityChanged" aliasName="" visibility="DefaultOn" source="" blockTypeName="" eventHandlerType="OpenSpan.Interactions.Controls.InteractionManager+PropertyChangedEventHandler" />
           <OpenSpan.DynamicMembers.DynamicEventInfo dynamicType="Event" name="OnStateChanged" aliasName="" visibility="DefaultOn" source="" blockTypeName="" eventHandlerType="OpenSpan.Interactions.Controls.InteractionManager+PropertyChangedEventHandler" />
-          <OpenSpan.DynamicMembers.DynamicEventInfo dynamicType="Event" name="OnZipcodeChanged" aliasName="" visibility="DefaultOn" source="" blockTypeName="" eventHandlerType="OpenSpan.Interactions.Controls.InteractionManager+PropertyChangedEventHandler" />
           <OpenSpan.DynamicMembers.DynamicEventInfo dynamicType="Event" name="OnPhone1Changed" aliasName="" visibility="DefaultOn" source="" blockTypeName="" eventHandlerType="OpenSpan.Interactions.Controls.InteractionManager+PropertyChangedEventHandler" />
           <OpenSpan.DynamicMembers.DynamicEventInfo dynamicType="Event" name="OnPhone2Changed" aliasName="" visibility="DefaultOn" source="" blockTypeName="" eventHandlerType="OpenSpan.Interactions.Controls.InteractionManager+PropertyChangedEventHandler" />
           <OpenSpan.DynamicMembers.DynamicEventInfo dynamicType="Event" name="OnPhone3Changed" aliasName="" visibility="DefaultOn" source="" blockTypeName="" eventHandlerType="OpenSpan.Interactions.Controls.InteractionManager+PropertyChangedEventHandler" />
@@ -76,6 +74,10 @@
           <OpenSpan.DynamicMembers.DynamicEventInfo dynamicType="Event" name="OnTotalDueChanged" aliasName="" visibility="DefaultOn" source="" blockTypeName="" eventHandlerType="OpenSpan.Interactions.Controls.InteractionManager+PropertyChangedEventHandler" />
           <OpenSpan.DynamicMembers.DynamicEventInfo dynamicType="Event" name="OnEligibleForUpgradeChanged" aliasName="" visibility="DefaultOn" source="" blockTypeName="" eventHandlerType="OpenSpan.Interactions.Controls.InteractionManager+PropertyChangedEventHandler" />
           <OpenSpan.DynamicMembers.DynamicEventInfo dynamicType="Event" name="OnEligibleForUnlimitedChanged" aliasName="" visibility="DefaultOn" source="" blockTypeName="" eventHandlerType="OpenSpan.Interactions.Controls.InteractionManager+PropertyChangedEventHandler" />
+          <OpenSpan.DynamicMembers.DynamicPropertyInfo dynamicType="Property" name="ZipCode" canRead="True" canWrite="True" type="System.String" aliasName="ZipCode" shouldSerialize="False" visibility="DefaultOn" source="" blockTypeName="" />
+          <OpenSpan.DynamicMembers.DynamicEventInfo dynamicType="Event" name="OnZipCodeChanged" aliasName="" visibility="DefaultOn" source="" blockTypeName="" eventHandlerType="OpenSpan.Interactions.Controls.InteractionManager+PropertyChangedEventHandler" />
+          <OpenSpan.DynamicMembers.DynamicPropertyInfo dynamicType="Property" name="NearestStore" canRead="True" canWrite="True" type="System.String" aliasName="NearestStore" shouldSerialize="False" visibility="DefaultOn" source="" blockTypeName="" />
+          <OpenSpan.DynamicMembers.DynamicEventInfo dynamicType="Event" name="OnNearestStoreChanged" aliasName="" visibility="DefaultOn" source="" blockTypeName="" eventHandlerType="OpenSpan.Interactions.Controls.InteractionManager+PropertyChangedEventHandler" />
         </Items>
       </Content>
     </OpenSpan.Interactions.Controls.InteractionManager>

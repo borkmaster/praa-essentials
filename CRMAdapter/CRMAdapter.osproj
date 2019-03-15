@@ -25,7 +25,7 @@
     <!-- Deployment -->
     <DeploymentFiles>
     </DeploymentFiles>
-    <InteractionConfigurationFile />
+    <InteractionConfigurationFile>|Documents|\Visual Studio 2015\Projects\praa-essentials\Main-UI\Interaction.xml</InteractionConfigurationFile>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <OutputPath>bin\Debug\</OutputPath>
@@ -107,6 +107,14 @@
     </Reference>
     <Reference Include="OpenSpan.Controls, Version=8.0.0.0, Culture=neutral, PublicKeyToken=f5db91edc02d8c5e">
       <HintPath>$(OPENSPAN_APPLICATION_PATH)\OpenSpan.Controls.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="OpenSpan.Interactions, Version=8.0.0.0, Culture=neutral, PublicKeyToken=f5db91edc02d8c5e">
+      <HintPath>$(OPENSPAN_APPLICATION_PATH)\OpenSpan.Interactions.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="OpenSpan.Interactions.Controls, Version=8.0.0.0, Culture=neutral, PublicKeyToken=f5db91edc02d8c5e">
+      <HintPath>$(OPENSPAN_APPLICATION_PATH)\OpenSpan.Interactions.Controls.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="OpenSpan.Recording, Version=8.0.0.0, Culture=neutral, PublicKeyToken=f5db91edc02d8c5e">
@@ -194,6 +202,10 @@
     <Compile Include="Events\CRM_E_CRMfrmLogin_Created.os">
       <SubType>Component</SubType>
       <Id>Automator-8D6A63346B250DB</Id>
+    </Compile>
+    <Compile Include="_CRM_GC.os">
+      <SubType>Component</SubType>
+      <Id>GlobalContainer-8D6A9464D648991</Id>
     </Compile>
   </ItemGroup>
   <ItemGroup>

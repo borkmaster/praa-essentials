@@ -4,9 +4,9 @@
     <Assembly Value="OpenSpan" />
     <AssemblyReferences>
       <Assembly Value="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-      <Assembly Value="OpenSpan, Version=8.0.0.0, Culture=neutral, PublicKeyToken=f5db91edc02d8c5e" />
       <Assembly Value="System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
       <Assembly Value="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+      <Assembly Value="OpenSpan, Version=8.0.0.0, Culture=neutral, PublicKeyToken=f5db91edc02d8c5e" />
     </AssemblyReferences>
     <DynamicAssemblyReferences />
     <FileReferences />
@@ -18,6 +18,7 @@
       <BackColor Value="Control" />
       <ClientSize Value="214, 234" />
       <Location Value="15, 15" />
+      <ShowOnStartup Value="False" />
       <StartPosition Value="CenterScreen" />
       <TopMost Value="True" />
       <Content Name="Controls">
