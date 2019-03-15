@@ -195,9 +195,17 @@
     <EmbeddedResource Include="Properties\ImportTypeMap.resx" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Controls\CRM_E_CRMChild_Closing.os">
+      <SubType>Component</SubType>
+      <Id>Automator-8D6A95BFA5C5C4F</Id>
+    </Compile>
     <Compile Include="CRM.os">
       <SubType>Component</SubType>
       <Id>WindowsAdapter-8D69D76909BC4F8</Id>
+    </Compile>
+    <Compile Include="Events\CRM_E_CRMChild_Created.os">
+      <SubType>Component</SubType>
+      <Id>Automator-8D6A957A97D417B</Id>
     </Compile>
     <Compile Include="Events\CRM_E_CRMfrmLogin_Created.os">
       <SubType>Component</SubType>

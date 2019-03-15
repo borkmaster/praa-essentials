@@ -3,12 +3,12 @@
     <Type Value="OpenSpan.Automation.Automator" />
     <Assembly Value="OpenSpan.Automation" />
     <AssemblyReferences>
-      <Assembly Value="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
       <Assembly Value="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+      <Assembly Value="System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+      <Assembly Value="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
       <Assembly Value="OpenSpan, Version=8.0.0.0, Culture=neutral, PublicKeyToken=f5db91edc02d8c5e" />
       <Assembly Value="OpenSpan.Automation, Version=8.0.0.0, Culture=neutral, PublicKeyToken=f5db91edc02d8c5e" />
       <Assembly Value="OpenSpan.Controls, Version=8.0.0.0, Culture=neutral, PublicKeyToken=f5db91edc02d8c5e" />
-      <Assembly Value="System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
     </AssemblyReferences>
     <DynamicAssemblyReferences />
     <FileReferences />
@@ -106,7 +106,7 @@
             </LinkPoints>
           </Link>
           <Link PartID="18" Sensitive="False" Asynchronous="True" LogBeforeExecution="" LogAfterExecution="">
-            <From PartID="10" PortName="Raised" PortType="Event" ConnectableId="Automator-8D6A8CC74993085\ConnectableEvent-8D6A8CDDF0AA621" MemberComponentId="Automator-8D6A8CC74993085\EMPTY" />
+            <From PartID="10" PortName="Raised" PortType="Event" ConnectableId="Automator-8D6A8CC74993085\ConnectableEvent-8D6A8CDDF0AA621" MemberComponentId="Automator-8D6A8CC74993085\ConnectableEvent-8D6A8CDDF0AA621" />
             <To PartID="12" PortName="DoWork" PortType="Method" ConnectableId="Automator-8D6A8CC74993085\ConnectableProperties-8D6A8DB7ADB583E" MemberComponentId="Automator-8D6A8CC74993085\ConnectableProperties-8D6A8DB7ADB583E" />
             <LinkPoints>
               <Point value="135, 85" />

@@ -85,6 +85,10 @@
       <HintPath>$(OPENSPAN_APPLICATION_PATH)\OpenSpan.Interactions.Controls.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="Pega.Interop, Version=10.0.0.0, Culture=neutral, PublicKeyToken=f5db91edc02d8c5e">
+      <HintPath>$(OPENSPAN_APPLICATION_PATH)\Pega.Interop.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="System">
       <Private>False</Private>
     </Reference>
@@ -110,6 +114,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="Events" />
+    <Folder Include="Events\Interactions" />
     <Folder Include="Properties\" />
   </ItemGroup>
   <ItemGroup>
@@ -119,6 +125,14 @@
     <Compile Include="CustomerInformation.os">
       <SubType>Component</SubType>
       <Id>DesignForm-8D6A9416361EBFF</Id>
+    </Compile>
+    <Compile Include="Events\Interactions\Main_E_IntMgr_InteractionClosed.os">
+      <SubType>Component</SubType>
+      <Id>Automator-8D6A95CF9BF2F1A</Id>
+    </Compile>
+    <Compile Include="Events\Interactions\Main_E_IntMgr_InteractionStarted.os">
+      <SubType>Component</SubType>
+      <Id>Automator-8D6A95A27BFDE34</Id>
     </Compile>
     <Compile Include="_Main-UI_GC.os">
       <SubType>Component</SubType>
