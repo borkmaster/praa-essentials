@@ -15,7 +15,7 @@
     <!-- Custom properties -->
     <Name>WebAdapter-ACME</Name>
     <Id>Project-8D6A7D2CEC33D8D</Id>
-    <Version>8.0.2018.0</Version>
+    <Version>8.0.2006.0</Version>
     <TransformationVersion>8.0.2000.3</TransformationVersion>
     <ConfigurationFile>
     </ConfigurationFile>
@@ -77,7 +77,7 @@
       <HintPath>$(OPENSPAN_APPLICATION_PATH)\log4net.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="OpenSpan.Adapters">
+    <Reference Include="OpenSpan.Adapters, Version=8.0.0.0, Culture=neutral, PublicKeyToken=f5db91edc02d8c5e">
       <Private>False</Private>
       <HintPath>$(OPENSPAN_APPLICATION_PATH)\OpenSpan.Adapters.dll</HintPath>
     </Reference>
@@ -89,11 +89,11 @@
       <HintPath>$(OPENSPAN_APPLICATION_PATH)\OpenSpan.Adapters.Virtual.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="OpenSpan.Adapters.Web">
+    <Reference Include="OpenSpan.Adapters.Web, Version=8.0.0.0, Culture=neutral, PublicKeyToken=f5db91edc02d8c5e">
       <Private>False</Private>
       <HintPath>$(OPENSPAN_APPLICATION_PATH)\OpenSpan.Adapters.Web.dll</HintPath>
     </Reference>
-    <Reference Include="OpenSpan.Adapters.Windows">
+    <Reference Include="OpenSpan.Adapters.Windows, Version=8.0.0.0, Culture=neutral, PublicKeyToken=f5db91edc02d8c5e">
       <Private>False</Private>
       <HintPath>$(OPENSPAN_APPLICATION_PATH)\OpenSpan.Adapters.Windows.dll</HintPath>
     </Reference>
@@ -101,9 +101,13 @@
       <HintPath>$(OPENSPAN_APPLICATION_PATH)\OpenSpan.Adapters.WinInet.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="OpenSpan.ApplicationFramework">
+    <Reference Include="OpenSpan.ApplicationFramework, Version=8.0.0.0, Culture=neutral, PublicKeyToken=f5db91edc02d8c5e">
       <Private>False</Private>
       <HintPath>$(OPENSPAN_APPLICATION_PATH)\OpenSpan.ApplicationFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="OpenSpan.Controls, Version=8.0.0.0, Culture=neutral, PublicKeyToken=f5db91edc02d8c5e">
+      <HintPath>$(OPENSPAN_APPLICATION_PATH)\OpenSpan.Controls.dll</HintPath>
+      <Private>False</Private>
     </Reference>
     <Reference Include="OpenSpan.Recording, Version=8.0.0.0, Culture=neutral, PublicKeyToken=f5db91edc02d8c5e">
       <HintPath>$(OPENSPAN_APPLICATION_PATH)\OpenSpan.Recording.dll</HintPath>
@@ -164,15 +168,15 @@
     <Reference Include="System.Xml">
       <Private>False</Private>
     </Reference>
-    <Reference Include="OpenSpan">
+    <Reference Include="OpenSpan, Version=8.0.0.0, Culture=neutral, PublicKeyToken=f5db91edc02d8c5e">
       <HintPath>$(OPENSPAN_APPLICATION_PATH)\OpenSpan.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="OpenSpan.Automation">
+    <Reference Include="OpenSpan.Automation, Version=8.0.0.0, Culture=neutral, PublicKeyToken=f5db91edc02d8c5e">
       <HintPath>$(OPENSPAN_APPLICATION_PATH)\OpenSpan.Automation.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="OpenSpan.Runtime.Core">
+    <Reference Include="OpenSpan.Runtime.Core, Version=8.0.0.0, Culture=neutral, PublicKeyToken=f5db91edc02d8c5e">
       <HintPath>$(OPENSPAN_APPLICATION_PATH)\OpenSpan.Runtime.Core.dll</HintPath>
       <Private>False</Private>
     </Reference>
