@@ -138,6 +138,15 @@
 		</Activity>
 		<Activity Name="ProcessClaim">
 		</Activity>
+		<Activity Name="GetCustomerInformation">
+		</Activity>
+		<Activity Name="Update Display">
+		</Activity>
+		<Activity Name="SaveAddress">
+		</Activity>
+		<Activity Name="Answer Call">
+			<Value Name="BI_Initiated" Type="Boolean" />
+		</Activity>
 	</Activities>
 
 	<!--  Plug-ins are HTML user interface sections in the toolbar. Agile Desktop includes these plug-ins:

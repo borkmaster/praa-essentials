@@ -15,7 +15,7 @@
     <!-- Custom properties -->
     <Name>CRMAdapter</Name>
     <Id>Project-8D6959D2A66B6B9</Id>
-    <Version>8.0.2018.0</Version>
+    <Version>8.0.2006.0</Version>
     <TransformationVersion>8.0.2000.3</TransformationVersion>
     <ConfigurationFile>
     </ConfigurationFile>
@@ -69,7 +69,7 @@
   </PropertyGroup>
   <Import Project="$(OpenSpanPath)\OpenSpan.targets" />
   <ItemGroup>
-    <Reference Include="OpenSpan.Adapters">
+    <Reference Include="OpenSpan.Adapters, Version=8.0.0.0, Culture=neutral, PublicKeyToken=f5db91edc02d8c5e">
       <Private>False</Private>
       <HintPath>$(OPENSPAN_APPLICATION_PATH)\OpenSpan.Adapters.dll</HintPath>
     </Reference>
@@ -89,15 +89,15 @@
       <HintPath>$(OPENSPAN_APPLICATION_PATH)\OpenSpan.Adapters.Virtual.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="OpenSpan.Adapters.Windows">
+    <Reference Include="OpenSpan.Adapters.Windows, Version=8.0.0.0, Culture=neutral, PublicKeyToken=f5db91edc02d8c5e">
       <Private>False</Private>
       <HintPath>$(OPENSPAN_APPLICATION_PATH)\OpenSpan.Adapters.Windows.dll</HintPath>
     </Reference>
-    <Reference Include="OpenSpan.ApplicationFramework">
+    <Reference Include="OpenSpan.ApplicationFramework, Version=8.0.0.0, Culture=neutral, PublicKeyToken=f5db91edc02d8c5e">
       <Private>False</Private>
       <HintPath>$(OPENSPAN_APPLICATION_PATH)\OpenSpan.ApplicationFramework.dll</HintPath>
     </Reference>
-    <Reference Include="OpenSpan.Automation">
+    <Reference Include="OpenSpan.Automation, Version=8.0.0.0, Culture=neutral, PublicKeyToken=f5db91edc02d8c5e">
       <Private>False</Private>
       <HintPath>$(OPENSPAN_APPLICATION_PATH)\OpenSpan.Automation.dll</HintPath>
     </Reference>
@@ -176,11 +176,11 @@
     <Reference Include="System.Xml">
       <Private>False</Private>
     </Reference>
-    <Reference Include="OpenSpan">
+    <Reference Include="OpenSpan, Version=8.0.0.0, Culture=neutral, PublicKeyToken=f5db91edc02d8c5e">
       <HintPath>$(OPENSPAN_APPLICATION_PATH)\OpenSpan.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="OpenSpan.Runtime.Core">
+    <Reference Include="OpenSpan.Runtime.Core, Version=8.0.0.0, Culture=neutral, PublicKeyToken=f5db91edc02d8c5e">
       <HintPath>$(OPENSPAN_APPLICATION_PATH)\OpenSpan.Runtime.Core.dll</HintPath>
       <Private>False</Private>
     </Reference>
@@ -188,6 +188,7 @@
   <ItemGroup>
     <Folder Include="Events" />
     <Folder Include="Controls" />
+    <Folder Include="Events\Interactions" />
     <Folder Include="Procedures" />
     <Folder Include="Properties\" />
   </ItemGroup>
@@ -210,6 +211,10 @@
     <Compile Include="Events\CRM_E_CRMfrmLogin_Created.os">
       <SubType>Component</SubType>
       <Id>Automator-8D6A63346B250DB</Id>
+    </Compile>
+    <Compile Include="Events\Interactions\CRM_E_IntMgr_InteractionStarted.os">
+      <SubType>Component</SubType>
+      <Id>Automator-8D6A9A49F36EEFF</Id>
     </Compile>
     <Compile Include="_CRM_GC.os">
       <SubType>Component</SubType>
