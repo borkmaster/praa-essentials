@@ -5,11 +5,16 @@
     <AssemblyReferences>
       <Assembly Value="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
       <Assembly Value="System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+      <Assembly Value="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
       <Assembly Value="OpenSpan, Version=8.0.0.0, Culture=neutral, PublicKeyToken=f5db91edc02d8c5e" />
       <Assembly Value="OpenSpan.Automation, Version=8.0.0.0, Culture=neutral, PublicKeyToken=f5db91edc02d8c5e" />
+      <Assembly Value="OpenSpan.Controls, Version=8.0.0.0, Culture=neutral, PublicKeyToken=f5db91edc02d8c5e" />
       <Assembly Value="OpenSpan.Interactions.Controls, Version=8.0.0.0, Culture=neutral, PublicKeyToken=f5db91edc02d8c5e" />
+      <Assembly Value="OpenSpan.Script, Version=8.0.0.0, Culture=neutral, PublicKeyToken=f5db91edc02d8c5e" />
     </AssemblyReferences>
-    <DynamicAssemblyReferences />
+    <DynamicAssemblyReferences>
+      <Assembly Value="BooleanExpression-8D6ABC19BE147EB" Type="Dynamic.BooleanExpression_8D6ABC19BE147EB.Expression" />
+    </DynamicAssemblyReferences>
     <FileReferences />
     <BuildReferences />
   </ComponentInfo>
@@ -161,5 +166,32 @@
         </Items>
       </Content>
     </OpenSpan.Interactions.Controls.Activity>
+    <OpenSpan.Script.Expression.BooleanExpression Name="booleanExpression" Id="BooleanExpression-8D6ABC19BE147EB">
+      <Expression Value="key == account" />
+      <Valid Value="True" />
+      <Content Name="DynamicMembers">
+        <Items>
+          <OpenSpan.DynamicMembers.DynamicMethodInfo dynamicType="Method" name="Evaluate" aliasName="Evaluate" visibility="DefaultOn" source="" blockTypeName="" returnType="System.Boolean">
+            <param name="account" aliasName="account" paramType="System.String" isIn="True" isOut="False" position="0" />
+            <param name="key" aliasName="key" paramType="System.String" isIn="True" isOut="False" position="1" />
+          </OpenSpan.DynamicMembers.DynamicMethodInfo>
+        </Items>
+      </Content>
+      <Content Name="Identifiers">
+        <Items>
+          <OpenSpan.Script.Expression.ExpressionIdentifier>
+            <DataType Value="String" />
+            <ID Value="account" />
+          </OpenSpan.Script.Expression.ExpressionIdentifier>
+          <OpenSpan.Script.Expression.ExpressionIdentifier>
+            <DataType Value="String" />
+            <ID Value="key" />
+          </OpenSpan.Script.Expression.ExpressionIdentifier>
+        </Items>
+      </Content>
+    </OpenSpan.Script.Expression.BooleanExpression>
+    <OpenSpan.Controls.MessageDialog Name="messageDialog" Id="MessageDialog-8D6ABC1D9AC34A5">
+      <Caption Value="Information" />
+    </OpenSpan.Controls.MessageDialog>
   </Component>
 </OpenSpanDesignDocument>

@@ -4,10 +4,10 @@
     <Assembly Value="OpenSpan.Automation" />
     <AssemblyReferences>
       <Assembly Value="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+      <Assembly Value="System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
       <Assembly Value="OpenSpan, Version=8.0.0.0, Culture=neutral, PublicKeyToken=f5db91edc02d8c5e" />
       <Assembly Value="OpenSpan.Automation, Version=8.0.0.0, Culture=neutral, PublicKeyToken=f5db91edc02d8c5e" />
       <Assembly Value="OpenSpan.Interactions.Controls, Version=8.0.0.0, Culture=neutral, PublicKeyToken=f5db91edc02d8c5e" />
-      <Assembly Value="System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
     </AssemblyReferences>
     <DynamicAssemblyReferences />
     <FileReferences />
@@ -55,7 +55,7 @@
         </Objects>
         <Links>
           <Link PartID="4" Sensitive="False" Asynchronous="False" LogBeforeExecution="" LogAfterExecution="">
-            <From PartID="1" PortName="Raised" PortType="Event" ConnectableId="Automator-8D6A9A49F36EEFF\ConnectableEvent-8D6A9A4B4F92827" MemberComponentId="Automator-8D6A9A49F36EEFF\EMPTY" />
+            <From PartID="1" PortName="Raised" PortType="Event" ConnectableId="Automator-8D6A9A49F36EEFF\ConnectableEvent-8D6A9A4B4F92827" MemberComponentId="Automator-8D6A9A49F36EEFF\ConnectableEvent-8D6A9A4B4F92827" />
             <To PartID="2" PortName="DoWork" PortType="Method" ConnectableId="Automator-8D6A9A49F36EEFF\ConnectableMethod-8D6A9A4EE58F941" MemberComponentId="Automator-8D6A9A49F36EEFF\ConnectableMethod-8D6A9A4EE58F941" />
             <LinkPoints>
               <Point value="193, 85" />
@@ -67,7 +67,7 @@
             </LinkPoints>
           </Link>
           <Link PartID="6" Sensitive="False" Asynchronous="False" LogBeforeExecution="" LogAfterExecution="">
-            <From PartID="1" PortName="Key" PortType="Property" ConnectableId="Automator-8D6A9A49F36EEFF\ConnectableEvent-8D6A9A4B4F92827" MemberComponentId="Automator-8D6A9A49F36EEFF\EMPTY" />
+            <From PartID="1" PortName="Key" PortType="Property" ConnectableId="Automator-8D6A9A49F36EEFF\ConnectableEvent-8D6A9A4B4F92827" MemberComponentId="Automator-8D6A9A49F36EEFF\ConnectableEvent-8D6A9A4B4F92827" />
             <To PartID="2" PortName="interactionKey" PortType="Property" ConnectableId="Automator-8D6A9A49F36EEFF\ConnectableMethod-8D6A9A4EE58F941" MemberComponentId="Automator-8D6A9A49F36EEFF\ConnectableMethod-8D6A9A4EE58F941" />
             <LinkPoints>
               <Point value="193, 119" />
@@ -90,18 +90,18 @@
               <Point value="465, 85" />
             </LinkPoints>
           </Link>
-          <Link PartID="8" Sensitive="False" Asynchronous="False" LogBeforeExecution="" LogAfterExecution="">
-            <From PartID="1" PortName="Key" PortType="Property" ConnectableId="Automator-8D6A9A49F36EEFF\ConnectableEvent-8D6A9A4B4F92827" MemberComponentId="Automator-8D6A9A49F36EEFF\EMPTY" />
-            <To PartID="3" PortName="maxExecutionTime" PortType="Property" ConnectableId="Automator-8D6A9A49F36EEFF\ConnectableMethod-8D6A9A51DF126F2" MemberComponentId="Automator-8D6A9A49F36EEFF\ConnectableMethod-8D6A9A51DF126F2" />
+          <Link PartID="9" Sensitive="False" Asynchronous="False" LogBeforeExecution="" LogAfterExecution="">
+            <From PartID="1" PortName="Key" PortType="Property" ConnectableId="Automator-8D6A9A49F36EEFF\ConnectableEvent-8D6A9A4B4F92827" MemberComponentId="Automator-8D6A9A49F36EEFF\ConnectableEvent-8D6A9A4B4F92827" />
+            <To PartID="3" PortName="interactionKey" PortType="Property" ConnectableId="Automator-8D6A9A49F36EEFF\ConnectableMethod-8D6A9A51DF126F2" MemberComponentId="Automator-8D6A9A49F36EEFF\ConnectableMethod-8D6A9A51DF126F2" />
             <LinkPoints>
               <Point value="193, 119" />
               <Point value="203, 119" />
               <Point value="204, 119" />
               <Point value="204, 156" />
               <Point value="428, 156" />
-              <Point value="428, 119" />
-              <Point value="455, 119" />
-              <Point value="465, 119" />
+              <Point value="428, 102" />
+              <Point value="455, 102" />
+              <Point value="465, 102" />
             </LinkPoints>
           </Link>
         </Links>
