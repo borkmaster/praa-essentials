@@ -140,6 +140,7 @@
   <ItemGroup>
     <Folder Include="Events" />
     <Folder Include="Events\Interactions" />
+    <Folder Include="Events\Activities" />
     <Folder Include="Procedures" />
     <Folder Include="Properties\" />
   </ItemGroup>
@@ -150,6 +151,10 @@
     <Compile Include="CustomerInformation.os">
       <SubType>Component</SubType>
       <Id>DesignForm-8D6A9416361EBFF</Id>
+    </Compile>
+    <Compile Include="Events\Activities\Main_E_UpdateDisplay_ActivityStarted.os">
+      <SubType>Component</SubType>
+      <Id>Automator-8D6AC582CDEF165</Id>
     </Compile>
     <Compile Include="Events\Interactions\Main_E_IntMgr_InteractionClosed.os">
       <SubType>Component</SubType>
