@@ -118,36 +118,43 @@
 			activity is available through context values or the activity’s properties.
 			-->
 
-	<Activities>
-		<Activity Name="ValidateCaller">
-			<Value Name="CallerValid" Type="Boolean"/>
-		</Activity>
-		<Activity Name="UnvalidateCaller">
-			<Value Name="CallerValid" Type="Boolean"/>
-		</Activity>
-		<Activity Name="AddPlan">
-			<Value Name="PlanType" Type="String"/>
-			<Value Name="EffectiveDate" Type="String"/>
-		</Activity>
-		<Activity Name="CloseAccount">
-			<Value Name="EffectiveDate" Type="String"/>
-		</Activity>
-		<Activity Name="ProcessClaim">
-			<Value Name="ClaimNum" Type="String"/>
-			<Value Name="ClaimDate" Type="String"/>
-		</Activity>
-		<Activity Name="ProcessClaim">
-		</Activity>
-		<Activity Name="GetCustomerInformation">
-		</Activity>
-		<Activity Name="Update Display">
-		</Activity>
-		<Activity Name="SaveAddress">
-		</Activity>
-		<Activity Name="Answer Call">
-			<Value Name="BI_Initiated" Type="Boolean" />
-		</Activity>
-	</Activities>
+  <Activities>
+    <Activity Name="ValidateCaller">
+      <Value Name="CallerValid" Type="Boolean"/>
+    </Activity>
+    <Activity Name="UnvalidateCaller">
+      <Value Name="CallerValid" Type="Boolean"/>
+    </Activity>
+    <Activity Name="AddPlan">
+      <Value Name="PlanType" Type="String"/>
+      <Value Name="EffectiveDate" Type="String"/>
+    </Activity>
+    <Activity Name="CloseAccount">
+      <Value Name="EffectiveDate" Type="String"/>
+    </Activity>
+    <Activity Name="ProcessClaim">
+      <Value Name="ClaimNum" Type="String"/>
+      <Value Name="ClaimDate" Type="String"/>
+    </Activity>
+    <Activity Name="ProcessClaim">
+    </Activity>
+    <Activity Name="GetCustomerInformation">
+    </Activity>
+    <Activity Name="Update Display">
+    </Activity>
+    <Activity Name="SaveAddress">
+    </Activity>
+    <Activity Name="Answer Call">
+      <Value Name="BI_Initiated" Type="Boolean" />
+    </Activity>
+    <Activity Name="ActivateMDIWindow">
+      <Value Name="AcctNumber" Type="String"></Value>
+    </Activity>
+    <Activity Name="GetNearestStore">
+      <Value Name="strResult" Type="String"></Value>
+      <Value Name="isSuccess" Type="Boolean"></Value>
+    </Activity>
+  </Activities>
 
 	<!--  Plug-ins are HTML user interface sections in the toolbar. Agile Desktop includes these plug-ins:
 			- 360 View - Provides access to key customer information at a glance.
