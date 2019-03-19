@@ -209,6 +209,10 @@
     <EmbeddedResource Include="Properties\ImportTypeMap.resx" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Controls\CRM_E_CRMChild_Activated.os">
+      <SubType>Component</SubType>
+      <Id>Automator-8D6AC8C6BFE7DF8</Id>
+    </Compile>
     <Compile Include="Controls\CRM_E_CRMChild_Closing.os">
       <SubType>Component</SubType>
       <Id>Automator-8D6A95BFA5C5C4F</Id>
