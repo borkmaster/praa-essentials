@@ -22,22 +22,22 @@
         <Objects>
           <ConnectionBlock>
             <ConnectableUniqueId Value="Automator-8D6A9600F504324\EntryPoint-8D6A960131B38B5" />
-            <Left Value="43" />
-            <Top Value="202" />
+            <Left Value="46" />
+            <Top Value="204" />
             <PartID Value="1" />
           </ConnectionBlock>
           <ConnectionBlock type="OpenSpan.Automation.Design.ConnectionBlocks.MultiExitPointBlock">
             <ConnectableUniqueId Value="Automator-8D6A9600F504324\ExitPoint-8D6A96020BD9D19" />
-            <Left Value="183" />
-            <Top Value="42" />
+            <Left Value="186" />
+            <Top Value="44" />
             <PartID Value="2" />
             <Title Value="Exit" />
             <EventName Value="" />
           </ConnectionBlock>
           <ConnectionBlock>
             <ConnectableUniqueId Value="Automator-8D6A9600F504324\LabelHost-8D6A9602F8C8C1E" />
-            <Left Value="43" />
-            <Top Value="42" />
+            <Left Value="46" />
+            <Top Value="44" />
             <PartID Value="4" />
           </ConnectionBlock>
           <ConnectionBlock>
@@ -175,18 +175,29 @@
             <InstanceName Value="Jump To" />
             <OverriddenIds />
           </ConnectionBlock>
+          <ConnectionBlock>
+            <DisplayName Value="Properties" />
+            <ConnectableUniqueId Value="Automator-8D6A9600F504324\ConnectableProperties-8D6AD23905AF571" />
+            <PartID Value="40" />
+            <Left Value="860" />
+            <Top Value="740" />
+            <Collapsed Value="False" />
+            <WillExecute Value="False" />
+            <InstanceName Value="MainlblNearestStore" />
+            <OverriddenIds />
+          </ConnectionBlock>
         </Objects>
         <Links>
           <Link PartID="6" Sensitive="False" Asynchronous="False" LogBeforeExecution="" LogAfterExecution="">
             <From PartID="4" PortName="Complete" PortType="Event" ConnectableId="Automator-8D6A9600F504324\LabelHost-8D6A9602F8C8C1E" MemberComponentId="Automator-8D6A9600F504324\LabelHost-8D6A9602F8C8C1E" />
             <To PartID="2" PortName="DoWork" PortType="Method" ConnectableId="Automator-8D6A9600F504324\ExitPoint-8D6A96020BD9D19" MemberComponentId="Automator-8D6A9600F504324\ExitPoint-8D6A96020BD9D19" />
             <LinkPoints>
-              <Point value="122, 60" />
-              <Point value="132, 60" />
-              <Point value="154, 60" />
-              <Point value="154, 60" />
-              <Point value="175, 60" />
-              <Point value="185, 60" />
+              <Point value="125, 62" />
+              <Point value="135, 62" />
+              <Point value="157, 62" />
+              <Point value="157, 62" />
+              <Point value="178, 62" />
+              <Point value="188, 62" />
             </LinkPoints>
           </Link>
           <DecisionEventLink PartID="8" Sensitive="False" Asynchronous="False" LogBeforeExecution="" LogAfterExecution="">
@@ -205,10 +216,10 @@
             <From PartID="1" PortName="param1" PortType="Property" ConnectableId="Automator-8D6A9600F504324\EntryPoint-8D6A960131B38B5" MemberComponentId="EMPTY" />
             <To PartID="5" PortName="key" PortType="Property" ConnectableId="Automator-8D6A9600F504324\ConnectableMethod-8D6A9604B30E80F" MemberComponentId="Automator-8D6A9600F504324\ConnectableMethod-8D6A9604B30E80F" />
             <LinkPoints>
-              <Point value="154, 247" />
-              <Point value="164, 247" />
-              <Point value="164, 247" />
-              <Point value="164, 262" />
+              <Point value="157, 249" />
+              <Point value="167, 249" />
+              <Point value="167, 249" />
+              <Point value="167, 262" />
               <Point value="195, 262" />
               <Point value="205, 262" />
             </LinkPoints>
@@ -373,12 +384,24 @@
               <Point value="1083, 197" />
             </LinkPoints>
           </Link>
+          <Link PartID="41" Sensitive="False" Asynchronous="False" LogBeforeExecution="" LogAfterExecution="">
+            <From PartID="11" PortName="NearestStore" PortType="Property" ConnectableId="Automator-8D6A9600F504324\ConnectableProperties-8D6A96207793A1F" MemberComponentId="GlobalContainer-8D6A9414EEA5617\InteractionManager-8D6A94553A95D75" />
+            <To PartID="40" PortName="Text" PortType="Property" ConnectableId="Automator-8D6A9600F504324\ConnectableProperties-8D6AD23905AF571" MemberComponentId="DesignForm-8D6A9416361EBFF\Label-8D6A94185E5D12D" />
+            <LinkPoints>
+              <Point value="812, 399" />
+              <Point value="822, 399" />
+              <Point value="828, 399" />
+              <Point value="828, 802" />
+              <Point value="855, 802" />
+              <Point value="865, 802" />
+            </LinkPoints>
+          </Link>
         </Links>
         <Comments />
         <SubGraphs />
       </AutomationDocument>
       <DocumentPosition Value="Binary">
-        <Binary>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABVTeXN0ZW0uRHJhd2luZy5Qb2ludEYCAAAAAXgBeQAACwsCAAAAAAAAAAAAAEIL</Binary>
+        <Binary>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABVTeXN0ZW0uRHJhd2luZy5Qb2ludEYCAAAAAXgBeQAACwsCAAAAAIDEQwAAMEML</Binary>
       </DocumentPosition>
       <ShowDesignCompNames Value="True" />
       <Content Name="DynamicMembers">
@@ -570,7 +593,7 @@
       <ExceptionsHandled Value="False" />
       <InstanceTypeName Value="OpenSpan.Interactions.Controls.InteractionManager" />
       <InstanceUniqueId Value="GlobalContainer-8D6A9414EEA5617\InteractionManager-8D6A94553A95D75" />
-      <MemberDetails Value=" - Properties(AcctNum, Address, City, Name, State, ZipCode)" />
+      <MemberDetails Value=" - Properties(AcctNum, Address, City, Name, State, ZipCode, NearestStore)" />
       <Content Name="DynamicMembers">
         <Items>
           <OpenSpan.DynamicMembers.DynamicPropertyInfo dynamicType="Property" name="_SmartKey%GlobalContainer-8D6A9414EEA5617\InteractionManager-8D6A94553A95D75%Key%Value" canRead="False" canWrite="True" type="System.String" aliasName="_SmartKey%GlobalContainer-8D6A9414EEA5617\InteractionManager-8D6A94553A95D75%Key%Value" shouldSerialize="False" visibility="DefaultOn" source="" blockTypeName="" />
@@ -616,6 +639,11 @@
           </OpenSpan.Automation.MemberPrototype>
           <OpenSpan.Automation.MemberPrototype>
             <MemberName Value="ZipCode" />
+            <MemberType Value="Property" />
+            <TypeName Value="System.String" />
+          </OpenSpan.Automation.MemberPrototype>
+          <OpenSpan.Automation.MemberPrototype>
+            <MemberName Value="NearestStore" />
             <MemberType Value="Property" />
             <TypeName Value="System.String" />
           </OpenSpan.Automation.MemberPrototype>
@@ -754,5 +782,23 @@
         </Items>
       </Content>
     </OpenSpan.Automation.JumpHost>
+    <OpenSpan.Automation.ConnectableProperties Name="connectableProperties10" Id="ConnectableProperties-8D6AD23905AF571">
+      <ComponentName Value="MainlblNearestStore" />
+      <DefaultValues Value="" />
+      <DisplayName Value="Properties" />
+      <ExceptionsHandled Value="False" />
+      <InstanceTypeName Value="System.Windows.Forms.Label" />
+      <InstanceUniqueId Value="DesignForm-8D6A9416361EBFF\Label-8D6A94185E5D12D" />
+      <MemberDetails Value=".Text Property" />
+      <Content Name="MemberPrototypes">
+        <Items>
+          <OpenSpan.Automation.MemberPrototype>
+            <MemberName Value="Text" />
+            <MemberType Value="Property" />
+            <TypeName Value="System.String" />
+          </OpenSpan.Automation.MemberPrototype>
+        </Items>
+      </Content>
+    </OpenSpan.Automation.ConnectableProperties>
   </Component>
 </OpenSpanDesignDocument>
