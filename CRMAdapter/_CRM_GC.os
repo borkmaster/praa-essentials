@@ -193,5 +193,51 @@
     <OpenSpan.Controls.MessageDialog Name="messageDialog" Id="MessageDialog-8D6ABC1D9AC34A5">
       <Caption Value="Information" />
     </OpenSpan.Controls.MessageDialog>
+    <OpenSpan.Interactions.Controls.Activity Name="CRMactActivateMDIWin" Id="Activity-8D6AD1A1D878D2E">
+      <ActivityName Value="ActivateMDIWindow" />
+      <Content Name="DynamicMembers">
+        <Items>
+          <OpenSpan.DynamicMembers.DynamicPropertyInfo dynamicType="Property" name="AcctNumber" canRead="True" canWrite="True" type="System.String" aliasName="AcctNumber" shouldSerialize="False" visibility="DefaultOn" source="" blockTypeName="" />
+          <OpenSpan.DynamicMembers.DynamicMethodInfo dynamicType="Method" name="StartActivity" aliasName="StartActivity" visibility="DefaultOn" source="" blockTypeName="" returnType="System.Int32">
+            <param name="AcctNumber" aliasName="AcctNumber" paramType="System.String" isIn="True" isOut="False" position="0" />
+            <param name="maxExecutionTime" aliasName="maxExecutionTime" paramType="System.Int32" isIn="True" isOut="False" position="1" />
+          </OpenSpan.DynamicMembers.DynamicMethodInfo>
+          <OpenSpan.DynamicMembers.DynamicMethodInfo dynamicType="Method" name="StartActivityNow" aliasName="StartActivityNow" visibility="DefaultOn" source="" blockTypeName="" returnType="System.Int32">
+            <param name="AcctNumber" aliasName="AcctNumber" paramType="System.String" isIn="True" isOut="False" position="0" />
+            <param name="maxExecutionTime" aliasName="maxExecutionTime" paramType="System.Int32" isIn="True" isOut="False" position="1" />
+          </OpenSpan.DynamicMembers.DynamicMethodInfo>
+          <OpenSpan.DynamicMembers.DynamicMethodInfo dynamicType="Method" name="StartActivityForKey" aliasName="StartActivityForKey" visibility="DefaultOn" source="" blockTypeName="" returnType="System.Int32">
+            <param name="interactionKey" aliasName="interactionKey" paramType="System.String" isIn="True" isOut="False" position="0" />
+            <param name="AcctNumber" aliasName="AcctNumber" paramType="System.String" isIn="True" isOut="False" position="1" />
+            <param name="maxExecutionTime" aliasName="maxExecutionTime" paramType="System.Int32" isIn="True" isOut="False" position="2" />
+          </OpenSpan.DynamicMembers.DynamicMethodInfo>
+          <OpenSpan.DynamicMembers.DynamicMethodInfo dynamicType="Method" name="StartActivityNowForKey" aliasName="StartActivityNowForKey" visibility="DefaultOn" source="" blockTypeName="" returnType="System.Int32">
+            <param name="interactionKey" aliasName="interactionKey" paramType="System.String" isIn="True" isOut="False" position="0" />
+            <param name="AcctNumber" aliasName="AcctNumber" paramType="System.String" isIn="True" isOut="False" position="1" />
+            <param name="maxExecutionTime" aliasName="maxExecutionTime" paramType="System.Int32" isIn="True" isOut="False" position="2" />
+          </OpenSpan.DynamicMembers.DynamicMethodInfo>
+          <OpenSpan.DynamicMembers.DynamicMethodInfo dynamicType="Method" name="Start" aliasName="Start" visibility="DefaultOn" source="" blockTypeName="" returnType="System.Int32">
+            <param name="interactionKey" aliasName="interactionKey" paramType="System.String" isIn="True" isOut="False" position="0" />
+            <param name="AcctNumber" aliasName="AcctNumber" paramType="System.String" isIn="True" isOut="False" position="1" />
+            <param name="maxExecutionTime" aliasName="maxExecutionTime" paramType="System.Int32" isIn="True" isOut="False" position="2" />
+          </OpenSpan.DynamicMembers.DynamicMethodInfo>
+          <OpenSpan.DynamicMembers.DynamicMethodInfo dynamicType="Method" name="StartNow" aliasName="StartNow" visibility="DefaultOn" source="" blockTypeName="" returnType="System.Int32">
+            <param name="interactionKey" aliasName="interactionKey" paramType="System.String" isIn="True" isOut="False" position="0" />
+            <param name="AcctNumber" aliasName="AcctNumber" paramType="System.String" isIn="True" isOut="False" position="1" />
+            <param name="maxExecutionTime" aliasName="maxExecutionTime" paramType="System.Int32" isIn="True" isOut="False" position="2" />
+          </OpenSpan.DynamicMembers.DynamicMethodInfo>
+          <OpenSpan.DynamicMembers.DynamicMethodInfo dynamicType="Method" name="StartAndWait" aliasName="StartAndWait" visibility="DefaultOn" source="" blockTypeName="" returnTypeAssembly="OpenSpan.Interactions, Version=8.0.0.0, Culture=neutral, PublicKeyToken=f5db91edc02d8c5e" returnType="OpenSpan.Interactions.WorkItemResult">
+            <param name="interactionKey" aliasName="interactionKey" paramType="System.String" isIn="True" isOut="False" position="0" />
+            <param name="AcctNumber" aliasName="AcctNumber" paramType="System.String" isIn="True" isOut="True" position="1" />
+            <param name="maxExecutionTime" aliasName="maxExecutionTime" paramType="System.Int32" isIn="True" isOut="False" position="2" />
+          </OpenSpan.DynamicMembers.DynamicMethodInfo>
+          <OpenSpan.DynamicMembers.DynamicMethodInfo dynamicType="Method" name="StartNowAndWait" aliasName="StartNowAndWait" visibility="DefaultOn" source="" blockTypeName="" returnTypeAssembly="OpenSpan.Interactions, Version=8.0.0.0, Culture=neutral, PublicKeyToken=f5db91edc02d8c5e" returnType="OpenSpan.Interactions.WorkItemResult">
+            <param name="interactionKey" aliasName="interactionKey" paramType="System.String" isIn="True" isOut="False" position="0" />
+            <param name="AcctNumber" aliasName="AcctNumber" paramType="System.String" isIn="True" isOut="True" position="1" />
+            <param name="maxExecutionTime" aliasName="maxExecutionTime" paramType="System.Int32" isIn="True" isOut="False" position="2" />
+          </OpenSpan.DynamicMembers.DynamicMethodInfo>
+        </Items>
+      </Content>
+    </OpenSpan.Interactions.Controls.Activity>
   </Component>
 </OpenSpanDesignDocument>

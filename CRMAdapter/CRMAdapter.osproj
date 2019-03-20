@@ -221,6 +221,10 @@
       <SubType>Component</SubType>
       <Id>WindowsAdapter-8D69D76909BC4F8</Id>
     </Compile>
+    <Compile Include="Events\Activities\CRM_E_ActivateMDIWin_ActivityStarted.os">
+      <SubType>Component</SubType>
+      <Id>Automator-8D6AD1A40F287D7</Id>
+    </Compile>
     <Compile Include="Events\Activities\CRM_E_GetCustInfo_ActivityStarted.os">
       <SubType>Component</SubType>
       <Id>Automator-8D6ABC07A8CC1BE</Id>
