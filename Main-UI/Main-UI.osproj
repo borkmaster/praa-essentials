@@ -141,6 +141,7 @@
     <Folder Include="Events" />
     <Folder Include="Events\Interactions" />
     <Folder Include="Events\Activities" />
+    <Folder Include="Events\Controls" />
     <Folder Include="Procedures" />
     <Folder Include="Properties\" />
   </ItemGroup>
@@ -155,6 +156,14 @@
     <Compile Include="Events\Activities\Main_E_UpdateDisplay_ActivityStarted.os">
       <SubType>Component</SubType>
       <Id>Automator-8D6AC582CDEF165</Id>
+    </Compile>
+    <Compile Include="Events\Controls\Main_E_btnNearestStore_Click.os">
+      <SubType>Component</SubType>
+      <Id>Automator-8D6AD1F7A7E3500</Id>
+    </Compile>
+    <Compile Include="Events\Controls\Main_E_cmbGetAcct_SelectedIndexChanged.os">
+      <SubType>Component</SubType>
+      <Id>Automator-8D6AD19431835B6</Id>
     </Compile>
     <Compile Include="Events\Interactions\Main_E_IntMgr_InteractionActivated.os">
       <SubType>Component</SubType>

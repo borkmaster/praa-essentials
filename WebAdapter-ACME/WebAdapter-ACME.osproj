@@ -229,6 +229,10 @@
       <SubType>Component</SubType>
       <Id>Automator-8D6A8CC74993085</Id>
     </Compile>
+    <Compile Include="Events\Activities\ACME_E_GetNearestStore_ActivityStarted.os">
+      <SubType>Component</SubType>
+      <Id>Automator-8D6AD1FD5FFAB26</Id>
+    </Compile>
     <Compile Include="frmTest.os">
       <SubType>Component</SubType>
       <Id>DesignForm-8D6A88E37EFB323</Id>
@@ -256,6 +260,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Events" />
+    <Folder Include="Events\Activities" />
     <Folder Include="Extensions\" />
     <Folder Include="Procedures" />
     <Folder Include="Properties\" />
